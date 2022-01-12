@@ -15,7 +15,6 @@ urlpatterns = [
     path('new_business/', views.new_business, name='new_business'),
     path('newhood/', views.hood, name='hood'),
     path('new_post', views.new_post, name='post'),
-   
 
 
 ]
