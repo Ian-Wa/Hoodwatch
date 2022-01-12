@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hoodWatch',
+    'hoods',
     'bootstrap4',
     'cloudinary',
     

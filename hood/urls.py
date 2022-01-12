@@ -21,7 +21,7 @@ from django.contrib.auth import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('hoodWatch.urls')),
+    path('', include('hoods.urls')),
     re_path(r'accounts/', include('registration.backends.simple.urls')),
     re_path(r'logout/', views.LogoutView.as_view(), {"next_page": 'accounts/signup'}), 
 
